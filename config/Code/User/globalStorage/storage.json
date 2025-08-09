@@ -1,0 +1,82 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "51b7d467144c89433bd8e816cb3811bb3545f8f9dcc2e57c4463936127fd223c",
+    "telemetry.devDeviceId": "16d9d1e5-f642-41d1-b75a-be5d84176c88",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/momofu/.config/eww"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/momofu/.config/eww": "__default__profile__",
+            "file:///home/momofu/.config/sddm": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/momofu/.config/eww",
+            "backupPath": "/home/momofu/.config/Code/Backups/a659033cc6c022f5fff4be4f337e3621",
+            "uiState": {
+                "mode": 1,
+                "x": 8,
+                "y": 62,
+                "width": 946,
+                "height": 1010
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 200,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 200,
+            "auxiliaryBarWidth": 236,
+            "workspaces": {
+                "620c622dfab556322a63060767d9f662": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "bafd2d30e49ebcd6d9f571a20948c178": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

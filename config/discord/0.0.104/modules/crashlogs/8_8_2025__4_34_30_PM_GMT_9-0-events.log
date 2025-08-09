@@ -1,0 +1,37 @@
+8/8/2025, 4:34:30 PM GMT+9 0: 
+
+----------------------------------------------
+8/8/2025, 4:34:30 PM GMT+9 1: Discord starting: {"releaseChannel":"stable","version":"0.0.104"}, modulepath: /home/momofu/.config/discord/0.0.104/modules
+8/8/2025, 4:34:30 PM GMT+9 2: ✅ webContents.created web1 "index.html"
+8/8/2025, 4:34:30 PM GMT+9 3: ✅ window.created win1 "discord"
+8/8/2025, 4:34:30 PM GMT+9 4: ✅ webContents.did-finish-load web1
+8/8/2025, 4:34:48 PM GMT+9 5: ✅ webContents.created web2 ""
+8/8/2025, 4:34:48 PM GMT+9 6: ✅ window.created win2 "Discord"
+8/8/2025, 4:34:49 PM GMT+9 7: ✅ webContents.did-finish-load web2
+8/8/2025, 4:34:50 PM GMT+9 8: window.close win1
+8/8/2025, 4:34:50 PM GMT+9 9: webContents.destroyed web1
+8/8/2025, 4:34:50 PM GMT+9 10: window.closed win1
+8/8/2025, 4:47:37 PM GMT+9 11: window.close win2
+8/8/2025, 4:52:26 PM GMT+9 0: 
+
+----------------------------------------------
+8/8/2025, 4:52:48 PM GMT+9 12: window.close win2
+8/8/2025, 4:53:32 PM GMT+9 0: 
+
+----------------------------------------------
+8/8/2025, 4:53:58 PM GMT+9 13: window.close win2
+8/8/2025, 6:56:46 PM GMT+9 14: before-quit
+8/8/2025, 8:17:08 PM GMT+9 0: 
+
+----------------------------------------------
+8/8/2025, 8:17:08 PM GMT+9 1: Discord starting: {"releaseChannel":"stable","version":"0.0.104"}, modulepath: /home/momofu/.config/discord/0.0.104/modules
+8/8/2025, 8:17:08 PM GMT+9 2: ✅ webContents.created web1 ""
+8/8/2025, 8:17:08 PM GMT+9 3: ✅ window.created win1 "discord"
+8/8/2025, 8:17:09 PM GMT+9 4: ✅ webContents.did-finish-load web1
+8/8/2025, 8:17:09 PM GMT+9 5: ✅ webContents.created web2 ""
+8/8/2025, 8:17:09 PM GMT+9 6: ✅ window.created win2 "Discord"
+8/8/2025, 8:17:10 PM GMT+9 7: ✅ webContents.did-finish-load web2
+8/8/2025, 8:17:11 PM GMT+9 8: window.close win1
+8/8/2025, 8:17:11 PM GMT+9 9: webContents.destroyed web1
+8/8/2025, 8:17:11 PM GMT+9 10: window.closed win1
+8/8/2025, 8:18:18 PM GMT+9 11: window.close win2
