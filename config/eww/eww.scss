@@ -729,3 +729,22 @@ tooltip{
   border-radius: 10px;
 }
 
+.launcher {
+  background: rgba(30,30,30,0.9);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+button {
+  margin: 6px;
+  border-radius: 8px;
+}
+
+image {
+  width: 42px;
+  height: 42px;
+}
+
+.row {
+  display: flex;
+}

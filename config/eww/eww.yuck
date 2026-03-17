@@ -811,3 +811,28 @@
     :exclusive true
     (bar)
 )
+
+
+(defvar launch_x "500")
+(defvar launch_y "500")
+(defwindow launcher
+  :geometry (geometry
+    :x launch_x
+    :y launch_y
+    :width "260px"
+    :height "180px")
+  :stacking "overlay"
+  :focusable true
+
+  (box :class "launcher"
+    :orientation "vertical"
+    (box :class "row"
+      (button :onclick "firefox" (image :path "/usr/share/icons/hicolor/64x64/apps/firefox.png"))
+      (button :onclick "thunar" (image :path "/usr/share/icons/hicolor/64x64/apps/system-file-manager.png"))
+      (button :onclick "alacritty" (image :path "/usr/share/icons/hicolor/64x64/apps/utilities-terminal.png")))
+    (box :class "row"
+      (button :onclick "discord" (image :path "/usr/share/icons/hicolor/64x64/apps/discord.png"))
+      (button :onclick "steam" (image :path "/usr/share/icons/hicolor/64x64/apps/steam.png"))
+      (button :onclick "code" (image :path "/usr/share/icons/hicolor/64x64/apps/code.png")))
+  )
+)
