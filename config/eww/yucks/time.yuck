@@ -1,0 +1,17 @@
+(defwidget time [time]
+    (eventbox :cursor "pointer"
+              :onclick "./scripts/calendar.sh"
+              :width 120
+              :height 25
+              :class "time-label"
+              (label :text "${time}")
+    )
+)
+
+(defpoll get_date :interval "1s"
+                  "date +'%d.%m.%Y, %A'"
+)
+
+(defpoll get_time :interval "1s"
+                  "date +%H:%M:%S"
+)

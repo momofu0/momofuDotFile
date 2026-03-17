@@ -1,0 +1,86 @@
+.music-container {
+  box-shadow: 0 2px 3px 2px #06060b;
+  margin:5.5px;
+  border-radius: 20px;
+  min-width:385px;
+  background-color: rgba(24,24,37,0.92);
+  padding: 5px;
+}
+
+.music-title{
+  margin-left:7px;
+  margin-right:7px;
+  margin-top:7px;
+}
+
+.music-thumbnail{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 6rem;
+    min-width: 6rem;
+    border-radius: 1rem;
+}
+
+.main-title{
+  margin-top:15px;
+  margin-bottom:12px;
+  margin-left:15px;
+  font-size:20px;
+  color: #4D9FEC; 
+}
+
+.artist{
+  color: rgb(205,212,246);
+  font-size:13px;
+  margin-left:15px;
+}
+
+.music-slider{
+  margin-top:10px;
+}
+
+.music-slider trough {
+  all: unset;
+  background-color: rgba(0,0,0,0.3);
+  box-shadow: 0 2px 3px 2px rgba(6,6,11,0.3);
+  border-radius: 50px;
+  min-height: 5px;
+  min-width: 270px;
+  margin: 0 20px 0 20px;
+}
+
+.music-slider trough highlight {
+  all: unset;
+  background-color:rgb(48,100,170);
+  border-radius: 10px;
+}
+
+.music-timer{
+  color: rgb(205,212,246);
+  margin:3px 20px;
+}
+
+.mico{
+  font-size:30px;
+  margin-left:10px;
+  transition:color 0.3s;
+  &:hover{
+    color:rgb(48,100,170);
+  }
+}
+
+.vol-mini trough {
+  all: unset;
+  margin-left:7px;
+  background-color: rgba(70,70,70,0.4);
+  border-radius: 50px;
+  min-height: 5px;
+  min-width: 100px;
+}
+
+.vol-mini trough highlight {
+  all: unset;
+  background-color:rgb(144, 104, 220);
+  border-radius: 10px;
+}

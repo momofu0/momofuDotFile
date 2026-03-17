@@ -1,0 +1,12 @@
+(defpoll volume_status :interval "2s" "/home/momofu/.config/eww/scripts/get_volume_status.sh")
+
+(defwidget volume []
+    (box :class "volume-short"
+        (box :orientation "h"
+             :space-evenly false
+             (label :text "${volume_status.icon} " :style "margin-right:1px;")
+             (label :class "bsht" 
+                    :text "${volume_status.volume}%")
+        )
+    )
+)

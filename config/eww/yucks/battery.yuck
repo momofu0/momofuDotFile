@@ -1,0 +1,14 @@
+(defpoll battery_status :interval "5s" "/home/momofu/.config/eww/scripts/battery_status.sh")
+
+(defwidget battery []
+    (box :class "battery"
+        (box :orientation "h"
+                       :space-evenly false
+                       (box :class "${battery_status.class}"
+                            (label :text "${battery_status.icon}")
+                       )
+                       (label :class "bsht" 
+                              :text "${EWW_BATTERY.BAT1.capacity}%")
+                  )
+    )
+)

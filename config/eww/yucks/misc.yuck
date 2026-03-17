@@ -1,0 +1,3 @@
+(defwidget divider []
+    (label :class "div" :text "|")
+)

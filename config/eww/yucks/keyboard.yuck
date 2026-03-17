@@ -1,0 +1,26 @@
+(defvar keyrev false)
+(defvar keyhov false)
+
+(deflisten kb_layout :initial "EN" "./scripts/get_kb.sh")
+
+(defwidget keyboard []
+    (box :class "keyboard"
+        (eventbox :onhover "./scripts/kb-delay.sh"
+                  :onhoverlost "bash -c '/usr/bin/eww update keyrev=false && /usr/bin/eww update keyhov=false'"
+                  :onclick "hyprctl switchxkblayout at-translated-set-2-keyboard next"
+                  :cursor "pointer"
+                  (box :orientation "h"
+                       :space-evenly false
+                       (label :text "${kb_layout}")
+                       (revealer :reveal keyrev
+                                 :transition "slideright"
+                                 :duration "350ms"
+                                 (box :class "kb-type" :space-evenly false
+                                      (label :class "kb-div" :text "|")
+                                      (label :text "${kb_layout == "EN"?"QWERTY":"Kedmanee"}")
+                                 )
+                       )
+                  )
+        )
+    )
+)

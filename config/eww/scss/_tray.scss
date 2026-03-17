@@ -1,0 +1,42 @@
+.tray-button{
+  font-size:20px;
+  font-family:"JetBrainsMono Nerd Font";
+  color: #cdd6f4;
+  border-radius:10px;
+  transition: background-color 0.6s;
+  &:hover{
+    background-color:rgba(0,0,0,0.38);
+  }
+}
+
+.systray-shadow{
+  background-color:rgba(0,0,0,0.38);
+  margin-right:5px;
+  margin-top:3px;
+  margin-bottom:3px;
+  padding:0px 8px;
+  border-radius:20px;
+}
+
+image{
+  margin: 0px 3px;
+}
+
+menu {
+  border-radius:15px;
+  padding: 10px;
+  background-color: red;
+  color:#cdd6f4;
+  background-color: rgba(0,0,0,0.68);
+  menuitem {
+    border-radius: 10px;
+    padding: 8px 12px;
+  }
+  menuitem:hover {
+    background-color: rgba(70,70,220,0.85);
+  }
+}
+
+.tray-text{
+  margin-bottom:4px;
+}

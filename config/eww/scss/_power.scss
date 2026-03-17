@@ -1,0 +1,14 @@
+.power{
+  margin-right:10px;
+}
+
+.power-eventbox{
+  color:rgb(230,100,100);
+  font-weight:bold;
+  font-size:20px;
+  font-family: "JetBrainsMono Nerd Font";
+  transition: color 0.3s;
+  &:hover{
+    color:rgb(245,162,96);
+  }
+}
